@@ -1,0 +1,65 @@
+{
+  "title": "JavaScript Basics Quiz",
+  "description": "Test your knowledge of JavaScript fundamentals",
+  "is_public": true,
+  "questions": [
+    {
+      "question_text": "What is the correct way to declare a variable in JavaScript?",
+      "question_type": "multiple_choice",
+      "time_limit": 30,
+      "points": 1000,
+      "order_index": 0,
+      "answer_options": [
+        {
+          "option_text": "var myVar = 5;",
+          "is_correct": true,
+          "color": "red"
+        },
+        {
+          "option_text": "variable myVar = 5;",
+          "is_correct": false,
+          "color": "blue"
+        },
+        {
+          "option_text": "v myVar = 5;",
+          "is_correct": false,
+          "color": "yellow"
+        },
+        {
+          "option_text": "declare myVar = 5;",
+          "is_correct": false,
+          "color": "green"
+        }
+      ]
+    },
+    {
+      "question_text": "What does '===' operator do in JavaScript?",
+      "question_type": "multiple_choice",
+      "time_limit": 25,
+      "points": 1000,
+      "order_index": 1,
+      "answer_options": [
+        {
+          "option_text": "Compares values only",
+          "is_correct": false,
+          "color": "red"
+        },
+        {
+          "option_text": "Compares values and types",
+          "is_correct": true,
+          "color": "blue"
+        },
+        {
+          "option_text": "Assigns a value",
+          "is_correct": false,
+          "color": "yellow"
+        },
+        {
+          "option_text": "Creates a new variable",
+          "is_correct": false,
+          "color": "green"
+        }
+      ]
+    }
+  ]
+}
